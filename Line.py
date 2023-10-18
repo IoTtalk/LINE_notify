@@ -1,4 +1,4 @@
-# coding=cp950
+# coding=UTF-8
 import requests
 import config
 
@@ -10,5 +10,5 @@ def notify(msg):
     res=requests.post(URL,headers=header,data=payload)
 
 if __name__ == '__main__':
-    msg = '¤¤¤åcp950'
+    msg = 'ä¸­æ–‡å­—æ¸¬è©¦'
     notify(msg)
