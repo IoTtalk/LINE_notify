@@ -1,11 +1,10 @@
 
-#IoTtalk information
-ServerURL = 'IoTtalk Server URL' 
-device_name = 'DEVICE NAME'
-polling_cycle = 600 # unit: second. ODF polling cycle (How long an ODF will be pulled)
+LineNotifyToken='???'
 
-
-#LINE notify token
-token_key = 'The LINE notify token'
-
+ServerURL = '???' #For example: 'https://iottalk.tw'
+MQTT_broker = None # MQTT Broker address, e.g., 'iottalk.tw', or None to using HTTP protocol
+MQTT_port = 1883
+MQTT_encryption = False
+MQTT_User = '???'
+MQTT_PW = '???'
 
